@@ -1,0 +1,7 @@
+{
+  "restartable": "rs",
+  "colours": true,
+  "watch": "src",
+  "ext": "ts",
+  "exec": "ts-node -r tsconfig-paths/register ."
+}
