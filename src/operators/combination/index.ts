@@ -4,6 +4,8 @@ import * as concatAll from "./concat-all";
 import * as endWith from "./end-with";
 import * as forkJoin from "./fork-join";
 import * as merge from "./merge";
+import * as mergeAll from "./merge-all";
+import * as pairwise from "./parewise";
 
 export default {
   combineLatest,
@@ -12,4 +14,6 @@ export default {
   endWith,
   forkJoin,
   merge,
+  mergeAll,
+  pairwise,
 };

@@ -5,4 +5,4 @@ import operators from "./operators";
 subject.testAsyncSubject();
 scheduler.testAsyncScheduler();
 
-operators.combination.merge.testInstanceMethod();
+operators.combination.pairwise.test();
