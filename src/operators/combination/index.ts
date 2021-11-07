@@ -6,6 +6,7 @@ import * as forkJoin from "./fork-join";
 import * as merge from "./merge";
 import * as mergeAll from "./merge-all";
 import * as pairwise from "./parewise";
+import * as race from "./race";
 
 export default {
   combineLatest,
@@ -16,4 +17,5 @@ export default {
   merge,
   mergeAll,
   pairwise,
+  race,
 };
